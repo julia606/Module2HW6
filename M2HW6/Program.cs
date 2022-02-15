@@ -12,10 +12,10 @@ namespace M2HW6
     internal class Program
     {
         /// <summary>
-        /// Find animal with length greater 50.
+        /// Find car with price greater 800,500.
         /// </summary>
         /// <param name = "car" > Object Car. </ param >
-        /// <returns>All animals with lenght >50.</returns>
+        /// <returns>All cars with price > 800,500.</returns>
         public static bool AnimalWithLengthGreater50(Car car)
         {
             return car.Price > 800500;
